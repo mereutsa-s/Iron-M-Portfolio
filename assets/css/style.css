@@ -1,5 +1,32 @@
 @charset "UTF-8";
 
+
+/************ TABLE OF CONTENTS ***************
+
+    01. Common CSS
+    02. Header CSS
+    03. Hero CSS
+    04. Features CSS
+    05. About CSS
+    06. Section-title CSS
+    06. Services CSS
+    07. Portfolio CSS
+    08. Trainer CSS
+    09. Product CSS
+    10. Blog CSS
+    11. Classes CSS
+    12. Cart CSS
+    13. Footer CSS
+
+
+**********************************************/
+/*
+
+
+*/
+/*----------------------------------------*/
+/*  01. Common CSS
+/*----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Teko:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
@@ -1872,7 +1899,7 @@ textarea:focus {
   text-align: center;
   padding: 50px 0;
   text-transform: capitalize;
-  font-size: 23px;
+  font-size: 30px;
   line-height: 0;
   font-weight: 500;
 }
@@ -1915,8 +1942,7 @@ textarea:focus {
   color: #010101;
   font-weight: 500;
   font-family: "Teko", sans-serif;
-  /* font-size: 30px; */
-  font-size: 23px;
+  font-size: 30px;
   display: block;
 }
 
@@ -2430,7 +2456,7 @@ textarea:focus {
 }
 
 .section-title {
-  font-size: 50px;
+  font-size: 60px;
   line-height: 1;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2466,23 +2492,6 @@ textarea:focus {
   top: 11px;
   left: 225px;
 }
-.tpsub-title-two::before {
-  position: absolute;
-  content: "";
-  background: #ea1b29;
-  width: 25px;
-  height: 2px;
-  top: 11px;
-  left: 195px;
-}
-.tpsub-title-two-4 {
-  font-size: 22px;
-  color: #ea1b29;
-  text-transform: uppercase;
-  line-height: 1.2;
-  display: block;
-  position: relative;
-}
 .tpsub-title-two-2 {
   font-size: 22px;
   color: #ea1b29;
@@ -2500,6 +2509,31 @@ textarea:focus {
   top: 11px;
   left: 195px;
 }
+.tpsub-title-two-3 {
+  font-size: 22px;
+  color: #ea1b29;
+  text-transform: uppercase;
+  line-height: 1.2;
+  display: block;
+  position: relative;
+}
+.tpsub-title-two-3::before {
+  position: absolute;
+  content: "";
+  background: #ea1b29;
+  width: 25px;
+  height: 2px;
+  top: 11px;
+  left: 190px;
+}
+.tpsub-title-two-4 {
+  font-size: 22px;
+  color: #ea1b29;
+  text-transform: uppercase;
+  line-height: 1.2;
+  display: block;
+  position: relative;
+}
 .tpsub-title-two-4::before {
   position: absolute;
   content: "";
@@ -2507,7 +2541,41 @@ textarea:focus {
   width: 25px;
   height: 2px;
   top: 11px;
-  left: 215px;
+  left: 220px;
+}
+.tpsub-title-two-5 {
+  font-size: 22px;
+  color: #ea1b29;
+  text-transform: uppercase;
+  line-height: 1.2;
+  display: block;
+  position: relative;
+}
+.tpsub-title-two-5::before {
+  position: absolute;
+  content: "";
+  background: #ea1b29;
+  width: 25px;
+  height: 2px;
+  top: 11px;
+  left: 180px;
+}
+.tpsub-title-two-6 {
+  font-size: 22px;
+  color: #ea1b29;
+  text-transform: uppercase;
+  line-height: 1.2;
+  display: block;
+  position: relative;
+}
+.tpsub-title-two-6::before {
+  position: absolute;
+  content: "";
+  background: #ea1b29;
+  width: 25px;
+  height: 2px;
+  top: 11px;
+  left: 200px;
 }
 @media (max-width: 480px) {
   .tpsub-title-two::before {
@@ -2533,24 +2601,6 @@ textarea:focus {
   top: 11px;
   right: 225px;
 }
-.tpsub-title-two::after {
-  position: absolute;
-  content: "";
-  background: #ea1b29;
-  width: 25px;
-  height: 2px;
-  top: 11px;
-  right: 195px;
-}
-.tpsub-title-two-4::after {
-  position: absolute;
-  content: "";
-  background: #ea1b29;
-  width: 25px;
-  height: 2px;
-  top: 11px;
-  right: 225px;
-}
 .tpsub-title-two-2::after {
   position: absolute;
   content: "";
@@ -2559,6 +2609,42 @@ textarea:focus {
   height: 2px;
   top: 11px;
   right: 195px;
+}
+.tpsub-title-two-3::after {
+  position: absolute;
+  content: "";
+  background: #ea1b29;
+  width: 25px;
+  height: 2px;
+  top: 11px;
+  right: 190px;
+}
+.tpsub-title-two-4::after {
+  position: absolute;
+  content: "";
+  background: #ea1b29;
+  width: 25px;
+  height: 2px;
+  top: 11px;
+  right: 220px;
+}
+.tpsub-title-two-5::after {
+  position: absolute;
+  content: "";
+  background: #ea1b29;
+  width: 25px;
+  height: 2px;
+  top: 11px;
+  right: 180px;
+}
+.tpsub-title-two-6::after {
+  position: absolute;
+  content: "";
+  background: #ea1b29;
+  width: 25px;
+  height: 2px;
+  top: 11px;
+  right: 200px;
 }
 @media (max-width: 480px) {
   .tpsub-title-two::after {
@@ -2589,6 +2675,72 @@ textarea:focus {
 .section-title-two {
   font-size: 60px;
   line-height: 1;
+}
+.tpsub-title-two-2 i {
+  font-size: 15px;
+  margin: 0 10px;
+  position: relative;
+  top: -2px;
+}
+
+.section-title-sd {
+  color: #ffffff;
+}
+
+.section-title-two-2 {
+  font-size: 60px;
+  line-height: 1;
+}
+.tpsub-title-two-3 i {
+  font-size: 15px;
+  margin: 0 10px;
+  position: relative;
+  top: -2px;
+}
+
+.section-title-sd {
+  color: #ffffff;
+}
+
+.section-title-two-3 {
+  font-size: 60px;
+  line-height: 1;
+}
+.tpsub-title-two-4 i {
+  font-size: 15px;
+  margin: 0 10px;
+  position: relative;
+  top: -2px;
+}
+
+.section-title-sd {
+  color: #ffffff;
+}
+
+.section-title-two-4 {
+  font-size: 60px;
+  line-height: 1;
+}
+.tpsub-title-two-5 i {
+  font-size: 15px;
+  margin: 0 10px;
+  position: relative;
+  top: -2px;
+}
+
+.section-title-sd {
+  color: #ffffff;
+}
+
+.section-title-two-5 {
+  font-size: 60px;
+  line-height: 1;
+}
+.tpsub-title-two-6 i {
+  font-size: 15px;
+  margin: 0 10px;
+  position: relative;
+  top: -2px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .section-title-two {
@@ -3237,7 +3389,7 @@ textarea:focus {
 }
 
 .tp-contact-info-title {
-  font-size: 25px;
+  font-size: 30px;
   line-height: 1;
   margin-bottom: 5px;
 }
